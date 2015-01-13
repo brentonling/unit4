@@ -1,0 +1,57 @@
+html { 
+  background: url(background.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1 {
+	margin-top: -30px;
+	margin-left: 50px;
+}
+
+h2 {
+	margin-top: -114px;
+	margin-left: 300px;
+	color: rgb(211,70,33);
+	font-family: 'PT Serif', serif;
+	font-size: 26px
+}
+
+p {
+    text-decoration: none;
+	line-height: 1.5;
+	position: absolute;
+	top: 725px;
+	color: #FFFFFF;
+	font-family: 'PT Serif', serif;
+	font-size: 16px;
+}
+
+/* unvisited link */
+a:link {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: #FFFFFF;
+    font-weight: bold;
+    text-decoration: underline;
+
+}
+
+/* selected link */
+a:active {
+    color: #FFFFFF;
+    font-weight: bold;
+    text-decoration: underline;
+}
